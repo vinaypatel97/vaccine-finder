@@ -25,6 +25,7 @@ const App = () => {
   }
 
   useEffect(() => {
+    getVaccinDetails();
     setInterval(() => {
       getVaccinDetails();
     }, 3000)
