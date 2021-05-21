@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vaccine-finder/static/css/main.0ac96349.chunk.css",
-    "main.js": "/vaccine-finder/static/js/main.72f3c337.chunk.js",
-    "main.js.map": "/vaccine-finder/static/js/main.72f3c337.chunk.js.map",
+    "main.js": "/vaccine-finder/static/js/main.a1248813.chunk.js",
+    "main.js.map": "/vaccine-finder/static/js/main.a1248813.chunk.js.map",
     "runtime-main.js": "/vaccine-finder/static/js/runtime-main.7ced1655.js",
     "runtime-main.js.map": "/vaccine-finder/static/js/runtime-main.7ced1655.js.map",
     "static/js/2.65151839.chunk.js": "/vaccine-finder/static/js/2.65151839.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7ced1655.js",
     "static/js/2.65151839.chunk.js",
     "static/css/main.0ac96349.chunk.css",
-    "static/js/main.72f3c337.chunk.js"
+    "static/js/main.a1248813.chunk.js"
   ]
 }
