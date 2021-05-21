@@ -67,7 +67,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2>💉 Vaccine Finder [₲Ĵ] 💉</h2>
+      <h2>💉 Vaccine Finder [GJ] 💉</h2>
       <h5>Constantly Searching...</h5>
       <div className="loaderWrap">
         <div className="loader"></div>
