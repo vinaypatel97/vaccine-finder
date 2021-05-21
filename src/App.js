@@ -100,29 +100,31 @@ const App = () => {
         </div>
       </div>
       <table>
-        <tr>
-          <th>Name(AV)</th>
-          <th>Pincode</th>
-          <th>Age Limit</th>
-          <th>Free/Paid</th>
-          <th>Vaccine Count Available</th>
-        </tr>
-        {
-          vaccineData && vaccineData.map((obj, index) => {
-            if (obj.sessions[0].available_capacity > 0) {
-              return (
-                <tr key={index}>
-                  <td>{`${obj.name} ${obj.address}`}</td>
-                  <td>{obj.pincode}</td>
-                  <td>{obj.sessions[0].min_age_limit}</td>
-                  <td>{obj.fee_type}</td>
-                  <td>{obj.sessions[0].available_capacity}</td>
-                </tr>
-              )
-            }
-            return null;
-          })
-        }
+        <tbody>
+          <tr>
+            <th>Name(AV)</th>
+            <th>Pincode</th>
+            <th>Age Limit</th>
+            <th>Free/Paid</th>
+            <th>Vaccine Count Available</th>
+          </tr>
+          {
+            vaccineData && vaccineData.map((obj, index) => {
+              if (obj.sessions[0].available_capacity > 0) {
+                return (
+                  <tr key={index}>
+                    <td>{`${obj.name} ${obj.address}`}</td>
+                    <td>{obj.pincode}</td>
+                    <td>{obj.sessions[0].min_age_limit}</td>
+                    <td>{obj.fee_type}</td>
+                    <td>{obj.sessions[0].available_capacity}</td>
+                  </tr>
+                )
+              }
+              return null;
+            })
+          }
+        </tbody>
       </table>
     </div>
   );
